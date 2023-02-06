@@ -32,7 +32,8 @@ function App() {
         type: response.data.types[0].type.name})
       );
       setPokemonChosen(true);
-    
+      else 
+      .catch()
   }
  
   return (
